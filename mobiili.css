@@ -1,0 +1,20 @@
+@media (max-width: 411px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    .hero_desc {
+        font-size: 1.5rem;
+    }
+    .hero-text {
+        top: 40%;
+    }
+    .servicesText.card {
+        height: 200px;
+    }
+    .servicesIcon {
+        font-size: 24px;
+    }
+    .card-title {
+        font-size: 1.2rem;
+    }
+  }

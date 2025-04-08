@@ -1,48 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-color: #2A3132;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background-color: #2A3132;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-}
-
-.logo {
-    font-size: 25px;
-    color: #1588fc;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.navbar {
-    display: flex;
-    gap: 20px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #d7d7d7;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
 
 .servicesText.card {
     height: 280px;
@@ -63,4 +19,39 @@ body {
     border: 1px solid #0c6ffd;
 }
 
-/* 008000 VIHREÄ OUTLINE */
+/* hero banner css */
+.bgimage {
+    height: 100vh;
+    background: url(img/hero_iso.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #292b2c;
+}
+
+.logot {
+    font-size: 2rem;
+    color: #0c6ffd;
+    font-weight: 700;
+    text-decoration: none;
+}
